@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    background-image: url(image.png);
+}
+
+.main-cv {
+    margin: auto 300px;
+    background-color: rgba(48, 118, 197, 0.74); 
+    color: white;
+}
+
+.cv-title {
+    display: flex;
+    justify-content: center;
+}
+
+.cv-person {
+    display: flex; 
+    margin: auto 25px;
+    
+}
+.person-information {
+    margin-left: 50px;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 700    ;
+}
+.skills {
+    margin: auto 25px;
+}
+.skills-title {
+    background-color: chocolate;
+    margin-right: 500px;
+    clip-path: polygon(78% 1%, 100% 50%, 82% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+.skills-title h1 {
+    padding: 10px;
+}
+.skills ul {
+    font-size: 19px;
+}
+
+.langauge {
+    margin: auto 25px;
+}
+.langauge-title {
+    background-color: chocolate;
+    margin-right: 500px;
+    clip-path: polygon(78% 1%, 100% 50%, 82% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+.langauge-title h1 {
+    padding: 10px;
+}
+.langauge ul {
+    font-size: 19px;
+}
+
+.contacts {
+    margin: auto 25px;
+}
+.contacts-title {
+    background-color: chocolate;
+    margin-right: 500px;
+    clip-path: polygon(78% 1%, 100% 50%, 82% 100%, 0% 100%, 0 50%, 0% 0%);
+
+}
+.contacts-title h1 {
+    margin: 10px;
+}
+.contacts ul    {
+    font-size: 19px;
+}
